@@ -1,0 +1,58 @@
+:root {
+  /* --dark-color: #1a253a; */
+  --blue-color: #3371e4;
+  --light-color: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 10000px;
+}
+
+.navbar {
+  background-color: var(--dark-color);
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--light-color);
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--blue-color);
+}
+
+.search {
+  border-left: 1px solid var(--blue-color);
+}
+
+.search {
+  color: var(--blue-color);
+  font-size: 20px;
+}
+
+.navbar .navbar-toggler {
+  color: var(--light-color);
+  font-size: 25px;
+  border-color: var(--light-color);
+}
+
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:hover {
+  /* box-shadow: none; */
+  color: var(--blue-color);
+}
+
+/* .navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--blue-color);
+} */
+/* === End of NavBar === */
+
+/* subscribe section=== */
+@media (min-width: 768px) {
+  .sub-input {
+    width: 50%;
+  }
+}
+/* subscribe section=== */
